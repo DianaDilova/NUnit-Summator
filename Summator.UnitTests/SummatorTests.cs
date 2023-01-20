@@ -124,6 +124,8 @@ namespace Summator.UnitTests
 
             Assert.That(expected, Is.EqualTo(actual));
         }
+
+        [Test]
         public void Test_Summator_AverageBigNegativeNumbers()
         {
             var nums = new int[] { -1000000, -1500000 };
