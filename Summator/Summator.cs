@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,9 +19,9 @@ namespace Summator
             }
             return sum;
         }
-        public static long Average(int[] arr)
+        public static double Average(double[] arr)
         {
-            long sum = 0;
+            double sum = 0;
 
             for (int i = 0; i < arr.Length; i++)
             {
@@ -28,5 +29,17 @@ namespace Summator
             }
             return sum/arr.LongLength;
         }
+        public static double Multiply(double[] arr)
+        {
+            if (arr.Length == 0) return 0;
+            double sum = 1;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum *= arr[i];
+            }
+            return sum;
+        }
+        
     }
 }
