@@ -144,7 +144,6 @@ namespace Summator.UnitTests
 
             var actual = Summator.Average(nums);
 
-
             Assert.That(expected, Is.EqualTo(actual));
         }
 
@@ -155,7 +154,6 @@ namespace Summator.UnitTests
             var expected = 20000;
 
             var actual = Summator.Multiply(nums);
-
 
             Assert.That(expected, Is.EqualTo(actual));
         }
@@ -168,7 +166,6 @@ namespace Summator.UnitTests
 
             var actual = Summator.Multiply(nums);
 
-
             Assert.That(expected, Is.EqualTo(actual));
         }
 
@@ -179,7 +176,6 @@ namespace Summator.UnitTests
             var expected = -12.5;
 
             var actual = Summator.Multiply(nums);
-
 
             Assert.That(expected, Is.EqualTo(actual));
         }
@@ -192,7 +188,6 @@ namespace Summator.UnitTests
 
             var actual = Summator.Multiply(nums);
 
-
             Assert.That(expected, Is.EqualTo(actual));
         }
 
@@ -204,9 +199,7 @@ namespace Summator.UnitTests
 
             var actual = Summator.Multiply(nums);
 
-
             Assert.That(expected, Is.EqualTo(actual));
         }
-
     }
 }

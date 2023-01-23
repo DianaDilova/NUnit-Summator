@@ -32,13 +32,13 @@ namespace Summator
         public static double Multiply(double[] arr)
         {
             if (arr.Length == 0) return 0;
-            double sum = 1;
+            double number = 1;
 
             for (int i = 0; i < arr.Length; i++)
             {
-                sum *= arr[i];
+                number *= arr[i];
             }
-            return sum;
+            return number;
         }
         
     }
